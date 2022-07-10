@@ -28,16 +28,16 @@
           <div class="wdgt-body">
 
             <label>Original Width</label>
-            <input type="number" class="form-control" v-model="orig_w" @keypress="setRatio($event)">
+            <input type="number" class="form-control" v-model="orig_w" @keyup="calculate($event, 'w')">
 
             <label>Original Height</label>
-            <input type="number" class="form-control" v-model="orig_h" @keypress="setRatio($event)">
+            <input type="number" class="form-control" v-model="orig_h" @keyup="calculate($event, 'h')">
 
             <label>New Width</label>
-            <input type="number" class="form-control" v-model="new_w" @keypress="calculate($event, 'new_w')">
+            <input type="number" class="form-control" v-model="new_w" @keyup="calculate($event, 'w')">
 
             <label>New Height</label>
-            <input type="number" class="form-control" v-model="new_h" @keypress="calculate($event, 'new_h')">
+            <input type="number" class="form-control" v-model="new_h" @keyup="calculate($event, 'h')">
 
           </div>
 
@@ -83,13 +83,14 @@ export default {
       }
 
       let ratio = this.orig_h / this.orig_w;
+      console.log(ratio)
+      console.log(this.new_w)
 
-      if (trigger == "new_w") {
+      if (trigger == "w") {
         this.new_h = Math.round(this.new_w * ratio);
       } else {
         this.new_w = Math.round(this.new_h * ratio);
       }
-
 
       this.setRatio($event);
 
