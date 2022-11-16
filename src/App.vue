@@ -71,7 +71,7 @@ export default {
       if (trigger == "w") {
         this.new_h = Math.round(this.new_w * ratio);
       } else {
-        this.new_w = Math.round(this.new_h * ratio);
+        this.new_w = Math.round(this.new_h / ratio);
       }
     },
   },
