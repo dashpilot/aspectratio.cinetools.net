@@ -1,5 +1,7 @@
 <template>
-  <a href="https://www.instantfilm.net"><img src="logo.png" id="logo" /></a>
+  <a href="https://www.instantfilm.net"
+    ><img src="./img/logo.png" id="logo"
+  /></a>
   <div class="wrap">
     <main id="main">
       <div class="wdgt wdgt-main">
