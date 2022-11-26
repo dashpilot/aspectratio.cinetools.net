@@ -1,6 +1,6 @@
 <template>
-  <a href="https://www.instantfilm.net"
-    ><img src="https://www.instantfilm.net/img/calculator.png" id="logo"
+  <a href="https://www.cinetools.net"
+    ><img src="https://www.cinetools.net/img/calculator.png" id="logo"
   /></a>
   <div class="wrap">
     <main id="main">
