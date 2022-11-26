@@ -1,8 +1,6 @@
 <template>
   <a href="https://www.instantfilm.net"
-    ><img
-      src="https://instantfilm-net.vercel.app/img/aspectratio.png"
-      id="logo"
+    ><img src="https://www.instantfilm.net/img/calculator.png" id="logo"
   /></a>
   <div class="wrap">
     <main id="main">
