@@ -5,8 +5,8 @@
   <div class="wrap">
     <main id="main">
       <div class="wdgt wdgt-main">
-        <div class="wdgt-content p-3">
-          <div class="info mb-3">Aspect ratio calculator for filmmakers.</div>
+        <div class="wdgt-content p-3 pt-4">
+          <div class="info mb-2">Aspect ratio calculator for filmmakers.</div>
 
           <label>Original Width</label>
           <input
