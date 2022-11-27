@@ -5,10 +5,8 @@
   <div class="wrap">
     <main id="main">
       <div class="wdgt wdgt-main">
-        <div class="wdgt-content p-3 pt-5">
-          <div class="info mb-3">
-            Get technical info about your video file, like codec, bitrate, etc.
-          </div>
+        <div class="wdgt-content p-3">
+          <div class="info mb-3">Aspect ratio calculator for filmmakers.</div>
 
           <label>Original Width</label>
           <input
