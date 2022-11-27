@@ -76,6 +76,22 @@ button:focus-visible {
   text-align: center;
 }
 
+.info {
+  font-family: "Domine", serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 19px;
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 15px;
+  background-color: #fff3cd;
+  color: #856404;
+  margin-top: 5px;
+  text-align: center;
+  border: 2px solid #856404;
+  border-radius: 4px;
+}
+
 @media (prefers-color-scheme: light) {
   :root {
     color: #213547;
